@@ -16,8 +16,8 @@
 
 
 #include <sst_config.h>
-#include <networkMemInspector.h>
-#include <memNIC.h>
+#include "networkMemInspector.h"
+#include "memNIC.h"
 
 namespace SST { namespace MemHierarchy {
 
