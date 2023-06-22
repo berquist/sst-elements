@@ -25,42 +25,43 @@ ignored_list=
 added_make_list=
 added_m4_list=
 
+elements_base_dir="${BASE_DIR}/src/sst/elements"
 # Look at the the directories in the elements subdir
-for file in `ls $BASE_DIR/src/sst/elements`; do
+for element_name in `ls ${elements_base_dir}`; do
+    element_dir="${elements_base_dir}/${element_name}"
 
-    # Make sure file is actually a dir
-	if [ -d "$BASE_DIR/src/sst/elements/$file" ]; then
+	if [ -d "${element_dir}" ]; then
 	    
         # Testing for .ignore and its associated .unignore settings
-        if test -f "$BASE_DIR/src/sst/elements/$file/.ignore" -a ! -f "$BASE_DIR/src/sst/elements/$file/.unignore" ; then
-            ignored_list="$ignored_list $file"
-        elif test -f "$BASE_DIR/src/sst/elements/$file/.ignore" && \
-             test -s $BASE_DIR/src/sst/elements/$file/.unignore && \
-             test -z "`grep $USER $$BASE_DIR/src/sst/elements/$file/.unignore`" ; then
-          ignored_list="$ignored_list $elemlib"
+        if test -f "${element_dir}/.ignore" -a ! -f "${element_dir}/.unignore" ; then
+            ignored_list="$ignored_list $element_name"
+        elif test -f "${element_dir}/.ignore" && \
+             test -s ${element_dir}/.unignore && \
+             test -z "`grep $USER $$element_dir/.unignore`" ; then
+          ignored_list="$ignored_list $element_name"
         else
             
             # See if we have a config.m4 in the element directory
-            if [ -r "$BASE_DIR/src/sst/elements/$file/configure.m4" ]; then
-                echo "   SST_${file}_CONFIG([config_${file}=1],[config_${file}=0])" >> config/sst_elements_config_output.m4
-                echo "   AS_IF([test \$config_${file} -eq 1], [active_element_libraries=\"\$active_element_libraries $file\"])" >> config/sst_elements_config_output.m4
-                echo "m4_include([src/sst/elements/$file/configure.m4])" >> config/sst_elements_include.m4
-                added_m4_list="$added_m4_list $file"
+            if [ -r "${element_dir}/configure.m4" ]; then
+                echo "   SST_${element_name}_CONFIG([config_${element_name}=1],[config_${element_name}=0])" >> config/sst_elements_config_output.m4
+                echo "   AS_IF([test \$config_${element_name} -eq 1], [active_element_libraries=\"\$active_element_libraries ${element_name}\"])" >> config/sst_elements_config_output.m4
+                echo "m4_include([src/sst/elements/${element_name}/configure.m4])" >> config/sst_elements_include.m4
+                added_m4_list="$added_m4_list ${element_name}"
             else
-                if [ -r "$BASE_DIR/src/sst/elements/$file/Makefile.am" ]; then
-                    echo "   active_element_libraries=\"\$active_element_libraries $file\"" >> config/sst_elements_config_output.m4
-                    added_make_list="$added_make_list $file"
+                if [ -r "${element_dir}/Makefile.am" ]; then
+                    echo "   active_element_libraries=\"\$active_element_libraries ${element_name}\"" >> config/sst_elements_config_output.m4
+                    added_make_list="$added_make_list ${element_name}"
                 fi
             fi
             
-            if [ -r "$BASE_DIR/src/sst/elements/$file/Makefile.am" ]; then
-                echo "   AC_CONFIG_FILES([src/sst/elements/$file/Makefile])" >> config/sst_elements_config_output.m4
-                if [ ! -f "$BASE_DIR/src/sst/elements/$file/.nodist" ]; then
-                    echo "   dist_element_libraries=\"\$dist_element_libraries $file\"" >> config/sst_elements_config_output.m4
+            if [ -r "${element_dir}/Makefile.am" ]; then
+                echo "   AC_CONFIG_FILES([src/sst/elements/${element_name}/Makefile])" >> config/sst_elements_config_output.m4
+                if [ ! -f "${element_dir}/.nodist" ]; then
+                    echo "   dist_element_libraries=\"\$dist_element_libraries ${element_name}\"" >> config/sst_elements_config_output.m4
                 else
-                    echo "   AC_MSG_WARN([Element library ]$file[ will build, but will not be distributed.])"  >> config/sst_elements_config_output.m4
+                    echo "   AC_MSG_WARN([Element library ]${element_name}[ will build, but will not be distributed.])"  >> config/sst_elements_config_output.m4
                     echo 
-                    echo "***WARNING: Element library $file will build, but will not be distributed via make dist due to .nodist file in directory."
+                    echo "***WARNING: Element library ${element_name} will build, but will not be distributed via make dist due to .nodist file in directory."
                 fi
             fi
             echo "   " >> config/sst_elements_config_output.m4
