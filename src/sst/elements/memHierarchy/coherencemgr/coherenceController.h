@@ -26,12 +26,12 @@
 #include <sst/core/timeConverter.h>
 #include <sst/core/output.h>
 
-#include "util.h"
-#include "sst/elements/memHierarchy/cacheListener.h"
-#include "sst/elements/memHierarchy/mshr.h"
-#include "sst/elements/memHierarchy/memLinkBase.h"
-#include "sst/elements/memHierarchy/replacementManager.h"
-#include "sst/elements/memHierarchy/hash.h"
+#include "../cacheListener.h"
+#include "../hash.h"
+#include "../memLinkBase.h"
+#include "../mshr.h"
+#include "../replacementManager.h"
+#include "../util.h"
 
 namespace SST { namespace MemHierarchy {
 using namespace std;

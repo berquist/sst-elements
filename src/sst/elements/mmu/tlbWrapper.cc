@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "tlbWrapper.h"
 
 using namespace SST;

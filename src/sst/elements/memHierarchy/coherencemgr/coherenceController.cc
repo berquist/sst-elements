@@ -14,9 +14,7 @@
 // distribution.
 
 
-#include <sst_config.h>
-
-#include "coherencemgr/coherenceController.h"
+#include "coherenceController.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

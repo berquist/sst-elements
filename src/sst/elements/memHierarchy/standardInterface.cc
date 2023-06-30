@@ -15,16 +15,15 @@
 // distribution.
 //
 
-#include <sst_config.h>
 #include "standardInterface.h"
 
 #include <sst/core/component.h>
 #include <sst/core/link.h>
 
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/moveEvent.h"
-#include "sst/elements/memHierarchy/memEventCustom.h"
+#include "memEventBase.h"
+#include "memEvent.h"
+#include "moveEvent.h"
+#include "memEventCustom.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

@@ -19,10 +19,10 @@
 #include <iostream>
 #include <array>
 
-#include "sst/elements/memHierarchy/coherencemgr/coherenceController.h"
-#include "sst/elements/memHierarchy/memTypes.h"
-#include "sst/elements/memHierarchy/lineTypes.h"
-#include "sst/elements/memHierarchy/cacheArray.h"
+#include "coherenceController.h"
+#include "../memTypes.h"
+#include "../lineTypes.h"
+#include "../cacheArray.h"
 
 
 namespace SST { namespace MemHierarchy {

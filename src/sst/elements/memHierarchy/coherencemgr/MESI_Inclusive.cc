@@ -16,11 +16,8 @@
 // General
 #include <vector>
 
-// SST-Core
-#include <sst_config.h>
-
 // SST-Elements
-#include "coherencemgr/MESI_Inclusive.h"
+#include "MESI_Inclusive.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

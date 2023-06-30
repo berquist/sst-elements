@@ -13,7 +13,6 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 #include "MESI_Directory.h"
 
 
@@ -33,7 +32,6 @@
 using namespace SST;
 using namespace SST::MemHierarchy;
 using namespace std;
-
 
 const MemEvent::id_type MESIDirectory::DirEntry::NO_LAST_REQUEST = std::make_pair((uint64_t)-1, -1);
 

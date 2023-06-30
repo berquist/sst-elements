@@ -15,11 +15,9 @@
 // distribution.
 //
 
-#include <sst_config.h>
 #include "memHierarchyScratchInterface.h"
 
 #include <sst/core/component.h>
-#include <sst/core/link.h>
 
 
 using namespace SST;

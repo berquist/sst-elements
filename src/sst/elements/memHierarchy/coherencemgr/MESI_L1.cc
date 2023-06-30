@@ -13,9 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 #include <vector>
-#include "coherencemgr/MESI_L1.h"
+#include "MESI_L1.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

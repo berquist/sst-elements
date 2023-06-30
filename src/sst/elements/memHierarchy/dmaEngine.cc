@@ -13,10 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 #include "dmaEngine.h"
 
-#include <sst/core/component.h>
 #include <sst/core/params.h>
 
 using namespace SST;

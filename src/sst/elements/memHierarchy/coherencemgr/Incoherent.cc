@@ -14,9 +14,8 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include <vector>
-#include "coherencemgr/Incoherent.h"
+#include "Incoherent.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

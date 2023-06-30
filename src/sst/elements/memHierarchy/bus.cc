@@ -19,8 +19,6 @@
  */
 
 
-#include <sst_config.h>
-
 #include <sstream>
 
 #include "bus.h"

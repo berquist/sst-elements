@@ -29,9 +29,9 @@
 #include <sst/core/output.h>
 #include <sst/core/warnmacros.h>
 
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/memEventCustom.h"
+#include "memEventBase.h"
+#include "memEvent.h"
+#include "memEventCustom.h"
 
 namespace SST {
 

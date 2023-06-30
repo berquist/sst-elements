@@ -16,18 +16,9 @@
 #ifndef _MEMHIERARCHY_MEMNICFOUR_SUBCOMPONENT_H_
 #define _MEMHIERARCHY_MEMNICFOUR_SUBCOMPONENT_H_
 
-#include <string>
 #include <map>
-#include <queue>
 
-#include <sst/core/event.h>
-#include <sst/core/output.h>
-#include <sst/core/subcomponent.h>
-#include <sst/core/interfaces/simpleNetwork.h>
-
-#include "sst/elements/memHierarchy/memEventBase.h"
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/memNIC.h"
+#include "memNIC.h"
 
 namespace SST {
 namespace MemHierarchy {

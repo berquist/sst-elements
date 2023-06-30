@@ -27,10 +27,10 @@
 #include <sst/core/timeConverter.h>
 #include <sst/core/output.h>
 
-#include "sst/elements/memHierarchy/memLinkBase.h"
-#include "sst/elements/memHierarchy/memEvent.h"
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/mshr.h"
+#include "../memLinkBase.h"
+#include "../memEvent.h"
+#include "../util.h"
+#include "../mshr.h"
 
 using namespace std;
 

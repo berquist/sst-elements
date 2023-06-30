@@ -13,7 +13,6 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 #include <sst/core/params.h>
 
 #include "memoryCacheController.h"
@@ -22,9 +21,7 @@
 #include "membackend/memBackendConvertor.h"
 #include "membackend/memBackend.h"
 #include "memEventBase.h"
-#include "memEvent.h"
 #include "bus.h"
-#include "cacheListener.h"
 #include "memNIC.h"
 #include "memLink.h"
 

@@ -20,7 +20,7 @@
 #include <sst/core/sst_types.h>
 #include <sst/core/component.h>
 #include <sst/core/link.h>
-#include "sst/elements/memHierarchy/memEvent.h"
+#include <sst/elements/memHierarchy/memEvent.h>
 #include "tlb.h"
 
 namespace SST {

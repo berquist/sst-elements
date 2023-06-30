@@ -20,9 +20,9 @@
 
 #include <sst/core/output.h>
 
-#include "sst/elements/memHierarchy/memTypes.h"
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/replacementManager.h"
+#include "memTypes.h"
+#include "util.h"
+#include "replacementManager.h"
 
 using namespace std;
 

@@ -23,7 +23,7 @@
 #include <sst/core/subcomponent.h>
 #include <sst/core/interfaces/stdMem.h>
 
-#include "sst/elements/memHierarchy/memEventBase.h"
+#include "../memEventBase.h"
 
 namespace SST {
 namespace MemHierarchy {

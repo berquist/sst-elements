@@ -15,10 +15,10 @@
 
 
 #include <sst_config.h>
-#include "sst/elements/memHierarchy/util.h"
-#include "sst/elements/memHierarchy/scratchpad.h"
-#include "membackend/scratchBackendConvertor.h"
-#include "membackend/memBackend.h"
+#include "../util.h"
+#include "../scratchpad.h"
+#include "scratchBackendConvertor.h"
+#include "memBackend.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

@@ -13,9 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 #include <vector>
-#include "coherencemgr/Incoherent_L1.h"
+#include "Incoherent_L1.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

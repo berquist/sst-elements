@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include <math.h>
 #include "mmu.h"
 #include "mmuEvents.h"
