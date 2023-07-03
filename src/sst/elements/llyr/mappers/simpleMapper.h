@@ -20,7 +20,7 @@
 #include <sstream>
 #include <iostream>
 
-#include "mappers/llyrMapper.h"
+#include "llyrMapper.h"
 
 namespace SST {
 namespace Llyr {

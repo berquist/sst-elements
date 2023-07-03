@@ -19,7 +19,7 @@
 #include <string.h>
 
 
-#include "funcSM/allgather.h"
+#include "allgather.h"
 
 using namespace SST::Firefly;
 

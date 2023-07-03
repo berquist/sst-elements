@@ -19,7 +19,7 @@
 #include <limits>
 #include <string>
 
-#include "pes/processingElement.h"
+#include "processingElement.h"
 
 namespace SST {
 namespace Llyr {

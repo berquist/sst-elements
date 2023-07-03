@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include "funcSM/waitAll.h"
+#include "waitAll.h"
 
 using namespace SST::Firefly;
 

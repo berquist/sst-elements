@@ -17,8 +17,8 @@
 
 #include <string.h>
 
-#include "funcSM/gatherv.h"
-#include "info.h"
+#include "gatherv.h"
+#include "../info.h"
 
 using namespace SST::Firefly;
 

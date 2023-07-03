@@ -14,8 +14,8 @@
 // distribution.
 
 
-#include "funcSM/commSplit.h"
-#include "info.h"
+#include "commSplit.h"
+#include "../info.h"
 
 using namespace SST::Firefly;
 

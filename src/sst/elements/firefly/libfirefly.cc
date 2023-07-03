@@ -14,17 +14,17 @@
 // distribution.
 
 
-#include <hades.h>
-#include <funcSM/init.h>
-#include <funcSM/fini.h>
-#include <funcSM/rank.h>
-#include <funcSM/size.h>
-#include <funcSM/makeProgress.h>
-#include <funcSM/allreduce.h>
-#include <funcSM/commDestroy.h>
-#include <rangeLatMod.h>
-#include <scaleLatMod.h>
-#include <nodePerf.h>
+#include "hades.h"
+#include "funcSM/init.h"
+#include "funcSM/fini.h"
+#include "funcSM/rank.h"
+#include "funcSM/size.h"
+#include "funcSM/makeProgress.h"
+#include "funcSM/allreduce.h"
+#include "funcSM/commDestroy.h"
+#include "rangeLatMod.h"
+#include "scaleLatMod.h"
+#include "nodePerf.h"
 
 /*
   Install the python library

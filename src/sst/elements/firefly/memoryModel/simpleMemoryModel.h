@@ -17,9 +17,9 @@
 #define COMPONENTS_FIREFLY_SIMPLE_MEMORY_MODEL_H
 
 #include <math.h>
-#include "ioVec.h"
-#include "memoryModel/memoryModel.h"
-#include "memoryModel/detailedInterface.h"
+#include "../ioVec.h"
+#include "memoryModel.h"
+#include "detailedInterface.h"
 #include "memReq.h"
 
 #include <queue>

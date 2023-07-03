@@ -23,7 +23,7 @@
 #include <iostream>
 #include <Python.h>
 
-#include "mappers/llyrMapper.h"
+#include "llyrMapper.h"
 #include "csvParser.h"
 
 namespace SST {

@@ -17,7 +17,7 @@
 #ifndef COMPONENTS_FIREFLY_SHMEM_COLLECT_H
 #define COMPONENTS_FIREFLY_SHMEM_COLLECT_H
 
-#include "shmem/common.h"
+#include "common.h"
 
 namespace SST {
 namespace Firefly {

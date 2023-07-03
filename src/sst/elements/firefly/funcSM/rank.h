@@ -16,7 +16,7 @@
 #ifndef COMPONENTS_FIREFLY_FUNCSM_RANK_H
 #define COMPONENTS_FIREFLY_FUNCSM_RANK_H
 
-#include "funcSM/api.h"
+#include "api.h"
 #include "event.h"
 
 namespace SST {

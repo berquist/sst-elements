@@ -16,7 +16,7 @@
 #ifndef COMPONENTS_FIREFLY_FUNCSM_COMMSPLIT_H
 #define COMPONENTS_FIREFLY_FUNCSM_COMMSPLIT_H
 
-#include "funcSM/allgather.h"
+#include "allgather.h"
 
 namespace SST {
 namespace Firefly {

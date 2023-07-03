@@ -17,7 +17,7 @@
 #ifndef COMPONENTS_FIREFLY_SHMEM_BARRIER_H
 #define COMPONENTS_FIREFLY_SHMEM_BARRIER_H
 
-#include "shmem/common.h"
+#include "common.h"
 
 namespace SST {
 namespace Firefly {

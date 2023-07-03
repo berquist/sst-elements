@@ -16,7 +16,7 @@
 #ifndef COMPONENTS_FIREFLY_FUNCSM_SIZE_H
 #define COMPONENTS_FIREFLY_FUNCSM_SIZE_H
 
-#include "funcSM/api.h"
+#include "api.h"
 #include "event.h"
 
 namespace SST {

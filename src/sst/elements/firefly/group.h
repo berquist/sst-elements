@@ -17,7 +17,7 @@
 #define COMPONENTS_FIREFLY_GROUP_H
 
 #include <vector>
-#include <virtNic.h>
+#include "virtNic.h"
 #include <sst/core/interfaces/simpleNetwork.h>
 
 namespace SST {

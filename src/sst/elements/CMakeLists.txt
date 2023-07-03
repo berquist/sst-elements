@@ -9,8 +9,10 @@ add_subdirectory(ariel)
 # add_subdirectory(balar)
 add_subdirectory(cacheTracer)
 add_subdirectory(cassini)
-add_subdirectory(ember)
-add_subdirectory(firefly)
+# needs pyember.inc transformation
+# add_subdirectory(ember)
+# needs python transformation
+# add_subdirectory(firefly)
 add_subdirectory(hermes)
 add_subdirectory(kingsley)
 add_subdirectory(llyr)

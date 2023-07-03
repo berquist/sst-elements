@@ -16,7 +16,7 @@
 #ifndef COMPONENTS_FIREFLY_FUNCSM_FINI_H
 #define COMPONENTS_FIREFLY_FUNCSM_FINI_H
 
-#include "funcSM/barrier.h"
+#include "barrier.h"
 
 namespace SST {
 namespace Firefly {

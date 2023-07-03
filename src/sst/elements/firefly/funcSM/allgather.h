@@ -16,10 +16,10 @@
 #ifndef COMPONENTS_FIREFLY_FUNCSM_ALLGATHER_H
 #define COMPONENTS_FIREFLY_FUNCSM_ALLGATHER_H
 
-#include "funcSM/api.h"
-#include "funcSM/event.h"
-#include "ctrlMsg.h"
-#include "info.h"
+#include "api.h"
+#include "event.h"
+#include "../ctrlMsg.h"
+#include "../info.h"
 
 namespace SST {
 namespace Firefly {

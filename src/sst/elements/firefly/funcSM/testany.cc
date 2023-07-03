@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include "funcSM/testany.h"
+#include "testany.h"
 
 using namespace SST::Firefly;
 

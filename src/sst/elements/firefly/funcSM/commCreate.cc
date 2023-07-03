@@ -14,8 +14,8 @@
 // distribution.
 
 
-#include "funcSM/commCreate.h"
-#include "info.h"
+#include "commCreate.h"
+#include "../info.h"
 
 using namespace SST::Firefly;
 

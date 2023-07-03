@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include "funcSM/wait.h"
+#include "wait.h"
 
 using namespace SST::Firefly;
 

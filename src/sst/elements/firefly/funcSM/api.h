@@ -21,8 +21,8 @@
 #include <sst/core/output.h>
 #include <sst/core/params.h>
 
-#include "sst/elements/hermes/msgapi.h"
-#include "ctrlMsgFunctors.h"
+#include <sst/elements/hermes/msgapi.h>
+#include "../ctrlMsgFunctors.h"
 
 namespace SST {
 namespace Firefly {

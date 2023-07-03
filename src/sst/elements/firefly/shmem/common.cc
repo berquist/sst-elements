@@ -13,7 +13,7 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include "shmem/common.h"
+#include "common.h"
 
 using namespace SST;
 using namespace Firefly;

@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include "funcSM/recv.h"
+#include "recv.h"
 
 using namespace SST::Firefly;
 

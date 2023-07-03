@@ -19,8 +19,8 @@
 #include <sst/core/component.h>
 #include <sst/core/subcomponent.h>
 #include <sst/core/link.h>
-#include <common/events.h>
-#include <common/timestamp.h>
+#include "events.h"
+#include "timestamp.h"
 #include <cstdint>
 
 namespace SST {

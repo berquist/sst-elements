@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include "funcSM/send.h"
+#include "send.h"
 
 using namespace SST::Firefly;
 

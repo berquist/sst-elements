@@ -23,7 +23,7 @@
 #include "../lsQueue.h"
 #include "../llyrTypes.h"
 #include "../llyrHelpers.h"
-#include "pes/peList.h"
+#include "../pes/peList.h"
 
 namespace SST {
 namespace Llyr {

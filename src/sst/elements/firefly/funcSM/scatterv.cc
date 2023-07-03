@@ -15,8 +15,8 @@
 
 
 
-#include "funcSM/scatterv.h"
-#include "info.h"
+#include "scatterv.h"
+#include "../info.h"
 
 using namespace SST::Firefly;
 

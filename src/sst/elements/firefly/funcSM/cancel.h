@@ -16,9 +16,9 @@
 #ifndef COMPONENTS_FIREFLY_FUNCSM_CANCEL_H
 #define COMPONENTS_FIREFLY_FUNCSM_CANCEL_H
 
-#include "funcSM/api.h"
-#include "funcSM/event.h"
-#include "ctrlMsg.h"
+#include "api.h"
+#include "event.h"
+#include "../ctrlMsg.h"
 
 namespace SST {
 namespace Firefly {

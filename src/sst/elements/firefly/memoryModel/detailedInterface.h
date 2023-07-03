@@ -18,8 +18,8 @@
 
 #include <sst/core/subcomponent.h>
 #include <sst/core/interfaces/stdMem.h>
-#include "memoryModel/memReq.h"
-#include "memoryModel/memoryModel.h"
+#include "memReq.h"
+#include "memoryModel.h"
 
 #define MY_MASK 1
 typedef void PTR;

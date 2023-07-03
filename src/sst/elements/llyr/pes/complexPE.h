@@ -18,7 +18,7 @@
 
 #include <cmath>
 
-#include "pes/processingElement.h"
+#include "processingElement.h"
 
 namespace SST {
 namespace Llyr {

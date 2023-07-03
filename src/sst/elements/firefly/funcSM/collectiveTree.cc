@@ -15,9 +15,9 @@
 
 
 
-#include "funcSM/collectiveTree.h"
-#include "funcSM/collectiveOps.h"
-#include "info.h"
+#include "collectiveTree.h"
+#include "collectiveOps.h"
+#include "../info.h"
 
 using namespace SST::Firefly;
 

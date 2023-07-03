@@ -13,7 +13,7 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <common/component.h>
+#include "component.h"
 
 namespace SST {
 namespace Hg {

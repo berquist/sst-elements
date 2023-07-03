@@ -16,7 +16,7 @@
 #ifndef _LOGIC_PE_H
 #define _LOGIC_PE_H
 
-#include "pes/processingElement.h"
+#include "processingElement.h"
 
 namespace SST {
 namespace Llyr {

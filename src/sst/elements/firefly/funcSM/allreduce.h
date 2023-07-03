@@ -16,7 +16,7 @@
 #ifndef COMPONENTS_FIREFLY_FUNCSM_ALLREDUCE_H
 #define COMPONENTS_FIREFLY_FUNCSM_ALLREDUCE_H
 
-#include "funcSM/collectiveTree.h"
+#include "collectiveTree.h"
 
 namespace SST {
 namespace Firefly {

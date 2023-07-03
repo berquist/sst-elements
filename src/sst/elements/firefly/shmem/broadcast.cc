@@ -13,8 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include "shmem/broadcast.h"
-#include "hadesSHMEM.h"
+#include "broadcast.h"
+#include "../hadesSHMEM.h"
 
 using namespace SST;
 using namespace Firefly;

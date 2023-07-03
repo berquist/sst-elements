@@ -17,7 +17,7 @@
 #define COMPONENTS_FIREFLY_INFO_H
 
 #include "group.h"
-#include "sst/elements/hermes/msgapi.h"
+#include <sst/elements/hermes/msgapi.h>
 
 #include <cstdint>
 

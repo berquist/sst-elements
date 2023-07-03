@@ -46,4 +46,4 @@ set(SRC
 )
 
 add_library(firefly ${SRC})
-target_link_libraries(firefly SST::SSTCore)
+target_link_libraries(firefly hermes)

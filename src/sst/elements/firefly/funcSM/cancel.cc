@@ -14,7 +14,7 @@
 // distribution.
 
 
-#include "funcSM/cancel.h"
+#include "cancel.h"
 
 using namespace SST::Firefly;
 
