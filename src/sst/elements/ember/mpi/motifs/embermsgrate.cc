@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "embermsgrate.h"
 
 #define TAG 0xf00dbeef

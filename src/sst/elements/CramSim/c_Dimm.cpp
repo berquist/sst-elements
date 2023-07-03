@@ -32,7 +32,6 @@
 // limitations under the License.
 
 //SST includes
-#include "sst_config.h"
 
 // C++ includes
 #include <algorithm>

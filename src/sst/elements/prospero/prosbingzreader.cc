@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include "sst_config.h"
 #include "prosbingzreader.h"
 
 using namespace SST::Prospero;

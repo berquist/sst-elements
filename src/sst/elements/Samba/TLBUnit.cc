@@ -14,7 +14,6 @@
  * E-mail: aawad@sandia.gov
  */
 
-#include <sst_config.h>
 #include "TLBUnit.h"
 
 

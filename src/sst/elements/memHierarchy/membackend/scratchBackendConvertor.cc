@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "../util.h"
 #include "../scratchpad.h"
 #include "scratchBackendConvertor.h"

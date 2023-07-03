@@ -11,7 +11,6 @@
 //
 
 
-#include <sst_config.h>
 
 #include "TLBhierarchy.h"
 

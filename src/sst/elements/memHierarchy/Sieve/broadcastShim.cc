@@ -18,7 +18,6 @@
  */
 
 
-#include <sst_config.h>
 
 #include "broadcastShim.h"
 

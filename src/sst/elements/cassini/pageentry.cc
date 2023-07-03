@@ -14,10 +14,7 @@
 // distribution.
 
 
-#include "sst_config.h"
-
-#include <sst/elements/memHierarchy/memEvent.h>
-#include <pageentry.h>
+#include "pageentry.h"
 
 using namespace std;
 using namespace SST;

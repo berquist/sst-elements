@@ -15,7 +15,6 @@
 
 
 #include <limits.h>
-#include "sst_config.h"
 #include "libs/emberMpiLib.h"
 
 using namespace SST;

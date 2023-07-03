@@ -18,7 +18,6 @@
  */
 
 
-#include <sst_config.h>
 #include <sst/core/params.h>
 #include "../util.h"
 #include "../hash.h"

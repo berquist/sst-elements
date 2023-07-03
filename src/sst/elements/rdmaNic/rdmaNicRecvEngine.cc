@@ -14,7 +14,6 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 
 #include "rdmaNic.h"
 using namespace SST::Interfaces;

@@ -27,7 +27,7 @@
 #include <sst/core/clock.h>
 #include <sst/core/eli/elementinfo.h>
 #include "rtlevent.h"
-#include "arielrtlev.h"
+#include <sst/elements/ariel/arielrtlev.h>
 #include "rtlreadev.h"
 #include "rtlwriteev.h"
 #include "rtlmemmgr.h"

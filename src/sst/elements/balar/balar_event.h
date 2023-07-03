@@ -17,7 +17,6 @@
 #define _H_SST_GPU_EVENT
 
 
-#include <sst_config.h>
 #include <sst/core/component.h>
 #include <sst/core/timeConverter.h>
 #include <../memHierarchy/memEvent.h>

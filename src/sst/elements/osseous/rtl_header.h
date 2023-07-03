@@ -22,9 +22,10 @@
 #include <array>
 #include <cstdint>
 #include <cstdlib>
-#include <uint.h>
+#include "eras_datatypes/uint.h"
 #include <string.h>
-#include <sint.h>
+#include "eras_datatypes/sint.h"
+
 namespace SST {
 //#define UNLIKELY(condition) __builtin_expect(static_cast<bool>(condition), 0)
 typedef struct Rtlheader {

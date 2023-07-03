@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 
 #include <stdint.h>
 #include <sst/core/math/sqrt.h>

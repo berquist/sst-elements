@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 
 #include "funcSM/scatterv.h"
 #include "info.h"

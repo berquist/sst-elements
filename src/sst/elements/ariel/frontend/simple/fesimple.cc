@@ -32,7 +32,6 @@
 #include <ctime>
 #include <bitset>
 #include <set>
-#include <sst_config.h>
 
 #ifdef HAVE_CUDA
 #include "host_defines.h"

@@ -16,7 +16,6 @@
 
 // This include is ***REQUIRED*** 
 // for ALL SST implementation files
-#include "sst_config.h"
 
 #include "basicSubComponent_subcomponent.h"
 

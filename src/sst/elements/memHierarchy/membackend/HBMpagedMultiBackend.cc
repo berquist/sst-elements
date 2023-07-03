@@ -16,7 +16,6 @@
 // Duplicate of the original pagedMultiBackend.h for use
 // with the HBM DRAMSim2 model
 
-#include <sst_config.h>
 
 #include <limits>
 

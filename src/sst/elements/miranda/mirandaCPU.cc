@@ -13,7 +13,6 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 #include <sstream>
 #include <sst/core/unitAlgebra.h>
 #include <sst/core/timeConverter.h>

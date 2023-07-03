@@ -14,7 +14,6 @@
 // distribution.
 
 #include "pin.H"
-#include <sst_config.h>
 #include <iostream>
 #include <fstream>
 #include <sys/shm.h>

@@ -15,7 +15,6 @@
 
 
 #include <math.h>
-#include <sst_config.h>
 #include <sst/core/rng/marsaglia.h>
 
 #include "embercmtcr.h"

@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include "sst_config.h"
 
 #include "emberlinearmap.h"
 #include "embercustommap.h" //NetworkSim: added custom rank map

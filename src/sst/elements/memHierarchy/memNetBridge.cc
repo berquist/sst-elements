@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "memNetBridge.h"
 
 #include "memNIC.h"

@@ -14,7 +14,6 @@
 // distribution.
 //
 
-#include <sst_config.h>
 #include <sst/core/shared/sharedArray.h>
 #include "sst/core/rng/xorshift.h"
 

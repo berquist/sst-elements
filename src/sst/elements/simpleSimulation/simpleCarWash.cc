@@ -11,7 +11,6 @@
 
 //#include <assert.h>
 
-#include "sst_config.h"
 #include "simpleCarWash.h"
 
 namespace SST {

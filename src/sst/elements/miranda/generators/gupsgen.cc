@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include <sst/core/params.h>
 #include <sst/core/rng/marsaglia.h>
 #include <sst/elements/miranda/generators/gupsgen.h>

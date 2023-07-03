@@ -19,7 +19,6 @@
      	OTF2_Reader* traceReader;
 */
 
-#include <sst_config.h>
 
 #include "emberotf2.h"
 

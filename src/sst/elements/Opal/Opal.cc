@@ -20,7 +20,6 @@
  */
 
 
-#include <sst_config.h>
 #include "Opal.h"
 
 #include <string>

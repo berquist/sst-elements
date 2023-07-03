@@ -17,7 +17,6 @@
 // https://github.com/sstsimulator/a-sst/tree/new-bfs-models/ISB-BFS
 
 
-#include <sst_config.h>
 #include <fstream>
 #include <iterator>
 #include <algorithm>

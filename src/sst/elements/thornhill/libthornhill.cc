@@ -14,6 +14,4 @@
 // distribution.
 
 
-#include "sst_config.h"
-
 #include "memoryHeapLink.h"

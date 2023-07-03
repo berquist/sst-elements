@@ -6,7 +6,6 @@
 // Authors: Kartik Lakhotia, Sai Prabhakar Rao Chenna
 
 
-#include <sst_config.h>
 #include "polarfly.h"
 
 #include "sst/core/rng/xorshift.h"

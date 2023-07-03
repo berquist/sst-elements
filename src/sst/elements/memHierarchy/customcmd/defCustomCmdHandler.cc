@@ -14,7 +14,7 @@
 // distribution.
 
 #include "defCustomCmdHandler.h"
-#include "memEventCustom.h"
+#include "../memEventCustom.h"
 
 using namespace std;
 using namespace SST;

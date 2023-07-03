@@ -1,0 +1,42 @@
+set(SRC
+    common/component.cc
+    common/hg_string.cc
+    common/mercury.cc
+    common/output.cc
+    common/thread_lock.cc
+    common/timestamp.cc
+    common/util.cc
+    components/node.cc
+    components/operating_system.cc
+    hardware/common/packet.cc
+    hardware/common/recv_cq.cc
+    hardware/network/network_message.cc
+    libraries/compute/compute_api.cc
+    libraries/compute/compute_event.cc
+    libraries/compute/lib_compute.cc
+    libraries/compute/lib_compute_inst.cc
+    libraries/compute/lib_compute_memmove.cc
+    libraries/compute/lib_compute_time.cc
+    libraries/system/system_api.cc
+    operating_system/launch/app_launch_request.cc
+    operating_system/launch/app_launcher.cc
+    operating_system/libraries/api.cc
+    operating_system/libraries/library.cc
+    operating_system/libraries/unblock_event.cc
+    operating_system/process/app.cc
+    operating_system/process/compute_scheduler.cc
+    operating_system/process/loadlib.cc
+    operating_system/process/simple_compute_scheduler.cc
+    operating_system/process/thread.cc
+    operating_system/process/thread_info.cc
+    operating_system/threading/context_util.cc
+    operating_system/threading/stack_alloc.cc
+    operating_system/threading/stack_alloc_chunk.cc
+    operating_system/threading/thread_lock.cc
+    operating_system/threading/threading_fcontext.cc
+    operating_system/threading/threading_pth.cc
+    operating_system/threading/threading_ucontext.cc
+)
+
+add_library(mercury ${SRC})
+target_link_libraries(mercury SST::SSTCore)

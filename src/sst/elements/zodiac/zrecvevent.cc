@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "zrecvevent.h"
 
 using namespace SST::Hermes;

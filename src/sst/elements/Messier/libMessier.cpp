@@ -13,7 +13,6 @@
 
 // Author: Amro Awad (E-mail aawad@sandia.gov)
 //
-#include <sst_config.h>
 #include <Messier.h>
 
 using namespace SST;

@@ -20,7 +20,6 @@
 #define _H_SST_MESSIER_EVENT
 
 
-#include <sst_config.h>
 #include <sst/core/component.h>
 #include <sst/core/timeConverter.h>
 #include <sst/elements/memHierarchy/memEvent.h>

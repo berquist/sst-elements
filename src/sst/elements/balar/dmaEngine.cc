@@ -24,7 +24,6 @@
  * 
  */
 
-#include <sst_config.h>
 #include "dmaEngine.h"
 #include "util.h"
 

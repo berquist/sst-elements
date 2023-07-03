@@ -38,7 +38,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "embertricount.h"
 
 #include <iostream>

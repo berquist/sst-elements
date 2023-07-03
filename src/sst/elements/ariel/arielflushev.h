@@ -17,7 +17,6 @@
 #ifndef _H_SST_ARIEL_FLUSH_EVENT
 #define _H_SST_ARIEL_FLUSH_EVENT
 
-#include <sst_config.h>
 #include "arielevent.h"
 #include "arielcore.h"
 

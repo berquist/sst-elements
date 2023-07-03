@@ -16,7 +16,6 @@
 
 
 
-#include <sst_config.h>
 #include "SimpleTLB.h"
 
 //#include <string>

@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "neuron.h"
 
 using namespace SST::GNAComponent;

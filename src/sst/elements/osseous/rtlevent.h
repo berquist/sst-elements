@@ -16,10 +16,10 @@
 #ifndef _RTLEVENT_H
 #define _RTLEVENT_H
 
-#include "uint.h"
 #include "rtl_header.h"
 #include <string>
 #include <sst/core/event.h>
+
 using namespace SST;
 using namespace std;
 

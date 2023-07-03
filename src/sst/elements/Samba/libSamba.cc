@@ -14,7 +14,6 @@
 */
 
 
-#include <sst_config.h>
 
 #include "sst/core/component.h"
 

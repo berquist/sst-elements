@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "emberallreduce.h"
 
 using namespace SST::Ember;

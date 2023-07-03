@@ -13,11 +13,9 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 
-#include "shogun_event.h"
 #include "shogunrrarb.h"
-#include "shogun_stat_bundle.h"
+#include "../shogun_stat_bundle.h"
 
 using namespace SST::Shogun;
 

@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "sst/elements/miranda/generators/streambench_customcmd.h"
 
 #include <sst/core/params.h>

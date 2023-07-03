@@ -16,8 +16,8 @@
 #ifndef _H_SHOGUN_ARB_H
 #define _H_SHOGUN_ARB_H
 
-#include "shogun_event.h"
-#include "shogun_q.h"
+#include "../shogun_event.h"
+#include "../shogun_q.h"
 
 using namespace SST::Shogun;
 

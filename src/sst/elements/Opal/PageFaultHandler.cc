@@ -17,7 +17,6 @@
  * E-mail: vamseereddy8@knights.ucf.edu
  */
 
-#include <sst_config.h>
 
 #include "PageFaultHandler.h"
 #include "Opal_Event.h"

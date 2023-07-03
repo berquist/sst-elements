@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "arielevent.h"
 
 using namespace SST;

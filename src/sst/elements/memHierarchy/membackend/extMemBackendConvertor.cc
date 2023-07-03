@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include <vector>
 #include "sst/elements/memHierarchy/util.h"
 #include "sst/elements/memHierarchy/memoryController.h"

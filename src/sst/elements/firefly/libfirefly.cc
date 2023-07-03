@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include <hades.h>
 #include <funcSM/init.h>
 #include <funcSM/fini.h>

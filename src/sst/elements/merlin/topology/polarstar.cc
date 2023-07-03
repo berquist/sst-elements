@@ -6,7 +6,6 @@
 // Author: Kartik Lakhotia
 
 
-#include <sst_config.h>
 #include "polarstar.h"
 
 #include "sst/core/rng/xorshift.h"

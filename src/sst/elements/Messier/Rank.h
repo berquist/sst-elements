@@ -20,7 +20,6 @@
 #define _H_SST_NVM_RANK
 
 
-#include <sst_config.h>
 #include <sst/core/component.h>
 #include <sst/core/timeConverter.h>
 #include <sst/elements/memHierarchy/memEvent.h>

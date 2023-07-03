@@ -20,7 +20,6 @@
 #define _H_SST_NVM_DIMM
 
 
-#include <sst_config.h>
 #include <sst/core/componentExtension.h>
 #include <sst/core/timeConverter.h>
 #include <sst/core/link.h>

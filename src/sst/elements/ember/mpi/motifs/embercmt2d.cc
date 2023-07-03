@@ -14,7 +14,6 @@
 // distribution.
 
 #include <math.h>
-#include <sst_config.h>
 #include <sst/core/rng/marsaglia.h>
 
 #include "embercmt2d.h"

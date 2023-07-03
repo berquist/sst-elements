@@ -13,7 +13,6 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 
 #define CALL_INFO_LAMBDA     __LINE__, __FILE__
 

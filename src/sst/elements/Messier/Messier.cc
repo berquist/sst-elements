@@ -18,7 +18,6 @@
 
 
 
-#include <sst_config.h>
 #include <string>
 #include "Messier.h"
 #include "Messier_Event.h"

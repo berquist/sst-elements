@@ -14,7 +14,6 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include "emberdetailedring.h"
 
 using namespace SST::Ember;
