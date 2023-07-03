@@ -16,18 +16,18 @@
 #ifndef _H_VANADIS_DECODER
 #define _H_VANADIS_DECODER
 
-#include "datastruct/cqueue.h"
-#include "decoder/visaopts.h"
-#include "inst/fpregmode.h"
-#include "inst/isatable.h"
-#include "inst/vinst.h"
-#include "lsq/vlsq.h"
-#include "os/vcpuos.h"
-#include "vbranch/vbranchbasic.h"
-#include "vbranch/vbranchunit.h"
-#include "velf/velfinfo.h"
-#include "vinsloader.h"
-#include "vfpflags.h"
+#include "../datastruct/cqueue.h"
+#include "visaopts.h"
+#include "../inst/fpregmode.h"
+#include "../inst/isatable.h"
+#include "../inst/vinst.h"
+#include "../lsq/vlsq.h"
+#include "../os/vcpuos.h"
+#include "../vbranch/vbranchbasic.h"
+#include "../vbranch/vbranchunit.h"
+#include "../velf/velfinfo.h"
+#include "../vinsloader.h"
+#include "../vfpflags.h"
 
 #include <cinttypes>
 #include <cstdint>

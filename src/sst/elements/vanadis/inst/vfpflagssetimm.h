@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_FP_FPFLAGS_SET_IMM
 #define _H_VANADIS_FP_FPFLAGS_SET_IMM
 
-#include "inst/vfpinst.h"
-#include "inst/vregfmt.h"
-#include "util/vfpreghandler.h"
+#include "vfpinst.h"
+#include "vregfmt.h"
+#include "../util/vfpreghandler.h"
 
 #include <type_traits>
 

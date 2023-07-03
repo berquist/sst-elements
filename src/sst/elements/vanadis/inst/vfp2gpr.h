@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_FP_2_GPR
 #define _H_VANADIS_FP_2_GPR
 
-#include "inst/vfpinst.h"
-#include "inst/vregfmt.h"
-#include "util/vfpreghandler.h"
+#include "vfpinst.h"
+#include "vregfmt.h"
+#include "../util/vfpreghandler.h"
 
 namespace SST {
 namespace Vanadis {

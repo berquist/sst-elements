@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_MUL_SPLIT
 #define _H_VANADIS_MUL_SPLIT
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

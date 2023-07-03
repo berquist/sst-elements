@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_XOR
 #define _H_VANADIS_XOR
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

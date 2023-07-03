@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SYSCALL_GETTIME64
 #define _H_VANADIS_SYSCALL_GETTIME64
 
-#include "os/voscallev.h"
+#include "../voscallev.h"
 
 namespace SST {
 namespace Vanadis {

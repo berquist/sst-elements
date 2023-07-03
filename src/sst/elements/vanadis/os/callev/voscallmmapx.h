@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SYSCALL_MMAPX
 #define _H_VANADIS_SYSCALL_MMAPX
 
-#include "os/voscallev.h"
+#include "../voscallev.h"
 
 #include <cinttypes>
 #include <cstdint>

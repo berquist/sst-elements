@@ -19,10 +19,10 @@
 #include <sst/core/output.h>
 #include <sst/core/subcomponent.h>
 
-#include "inst/regfile.h"
-#include "inst/vfence.h"
-#include "inst/vload.h"
-#include "inst/vstore.h"
+#include "../inst/regfile.h"
+#include "../inst/vfence.h"
+#include "../inst/vload.h"
+#include "../inst/vstore.h"
 
 #include <cassert>
 #include <cinttypes>

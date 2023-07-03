@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_NOP
 #define _H_VANADIS_NOP
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

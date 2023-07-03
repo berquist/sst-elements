@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SYSCALL_PRLIMIT
 #define _H_VANADIS_SYSCALL_PRLIMIT
 
-#include "os/voscallev.h"
+#include "../voscallev.h"
 
 namespace SST {
 namespace Vanadis {

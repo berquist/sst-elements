@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_MUL_HIGH
 #define _H_VANADIS_MUL_HIGH
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

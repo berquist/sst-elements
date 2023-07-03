@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SETREG
 #define _H_VANADIS_SETREG
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

@@ -26,12 +26,12 @@
 #include <functional>
 #include <tuple>
 
-#include "inst/isatable.h"
-#include "inst/regfile.h"
-#include "inst/vsyscall.h"
-#include "os/callev/voscallall.h"
-#include "os/vstartthreadreq.h"
-#include "os/resp/voscallresp.h"
+#include "../inst/isatable.h"
+#include "../inst/regfile.h"
+#include "../inst/vsyscall.h"
+#include "callev/voscallall.h"
+#include "vstartthreadreq.h"
+#include "resp/voscallresp.h"
 
 namespace SST {
 namespace Vanadis {

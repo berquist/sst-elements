@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_CONDITIONAL_MOVE
 #define _H_VANADIS_CONDITIONAL_MOVE
 
-#include "inst/vinst.h"
-#include "inst/vcmptype.h"
-#include "util/vcmpop.h"
+#include "vinst.h"
+#include "vcmptype.h"
+#include "../util/vcmpop.h"
 
 namespace SST {
 namespace Vanadis {

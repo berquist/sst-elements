@@ -16,13 +16,13 @@
 #ifndef _H_VANADIS_FP_INSTRUCTION
 #define _H_VANADIS_FP_INSTRUCTION
 
-#include "decoder/visaopts.h"
-#include "inst/regfile.h"
-#include "inst/vinst.h"
-#include "inst/vinsttype.h"
-#include "inst/vregfmt.h"
-#include "util/vfpreghandler.h"
-#include "vfpflags.h"
+#include "../decoder/visaopts.h"
+#include "regfile.h"
+#include "vinst.h"
+#include "vinsttype.h"
+#include "vregfmt.h"
+#include "../util/vfpreghandler.h"
+#include "../vfpflags.h"
 
 #include <cstring>
 #include <cmath>

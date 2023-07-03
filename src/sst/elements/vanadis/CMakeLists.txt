@@ -1,8 +1,10 @@
-add_subdirectory(decoder)
+# add_subdirectory(decoder)
 add_subdirectory(os)
 # add_subdirectory(tools)
 
 set(SRC
+    decoder/vmipsdecoder.cc
+    decoder/vriscv64decoder.cc
     vanadis.cc
 )
 

@@ -18,7 +18,7 @@
 
 #include <sst/core/subcomponent.h>
 
-#include "inst/vspeculate.h"
+#include "../inst/vspeculate.h"
 #include <list>
 #include <unordered_map>
 

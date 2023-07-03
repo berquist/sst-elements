@@ -16,11 +16,11 @@
 #ifndef _H_VANADIS_INSTRUCTION
 #define _H_VANADIS_INSTRUCTION
 
-#include "decoder/visaopts.h"
-#include "inst/regfile.h"
-#include "inst/regstack.h"
-#include "inst/vinsttype.h"
-#include "inst/vregfmt.h"
+#include "../decoder/visaopts.h"
+#include "regfile.h"
+#include "regstack.h"
+#include "vinsttype.h"
+#include "vregfmt.h"
 
 #include <cstring>
 #include <sst/core/output.h>

@@ -18,9 +18,9 @@
 
 #include <cfenv>
 
-#include "inst/vfpinst.h"
-#include "inst/vregfmt.h"
-#include "util/vfpreghandler.h"
+#include "vfpinst.h"
+#include "vregfmt.h"
+#include "../util/vfpreghandler.h"
 
 namespace SST {
 namespace Vanadis {

@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_FP_SIGN_LOGIC
 #define _H_VANADIS_FP_SIGN_LOGIC
 
-#include "inst/vfpinst.h"
-#include "inst/vregfmt.h"
-#include "util/vfpreghandler.h"
+#include "vfpinst.h"
+#include "vregfmt.h"
+#include "../util/vfpreghandler.h"
 
 #include <cmath>
 

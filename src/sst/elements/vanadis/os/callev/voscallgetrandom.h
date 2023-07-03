@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SYSCALL_GETRANDOM
 #define _H_VANADIS_SYSCALL_GETRANDOM
 
-#include "os/voscallev.h"
+#include "../voscallev.h"
 
 namespace SST {
 namespace Vanadis {

@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_STORE_CONDITIONAL
 #define _H_VANADIS_STORE_CONDITIONAL
 
-#include "inst/vstore.h"
+#include "vstore.h"
 
 namespace SST {
 namespace Vanadis {

@@ -17,104 +17,104 @@
 #define _H_VANADIS_INST_ALL
 
 // Arithmetic operations
-#include "inst/vadd.h"
-#include "inst/vaddi.h"
-#include "inst/vaddiu.h"
-#include "inst/vdiv.h"
-#include "inst/vdivmod.h"
-#include "inst/vmod.h"
-#include "inst/vmul.h"
-#include "inst/vmuli.h"
-#include "inst/vmulsplit.h"
-#include "inst/vmulhigh.h"
-#include "inst/vsub.h"
+#include "vadd.h"
+#include "vaddi.h"
+#include "vaddiu.h"
+#include "vdiv.h"
+#include "vdivmod.h"
+#include "vmod.h"
+#include "vmul.h"
+#include "vmuli.h"
+#include "vmulsplit.h"
+#include "vmulhigh.h"
+#include "vsub.h"
 
 // Logical operations
-#include "inst/vand.h"
-#include "inst/vandi.h"
-#include "inst/vnor.h"
-#include "inst/vor.h"
-#include "inst/vori.h"
-#include "inst/vxor.h"
-#include "inst/vxori.h"
+#include "vand.h"
+#include "vandi.h"
+#include "vnor.h"
+#include "vor.h"
+#include "vori.h"
+#include "vxor.h"
+#include "vxori.h"
 
 // Shift operations
-#include "inst/vsll.h"
-#include "inst/vslli.h"
-#include "inst/vsra.h"
-#include "inst/vsrai.h"
-#include "inst/vsrl.h"
-#include "inst/vsrli.h"
+#include "vsll.h"
+#include "vslli.h"
+#include "vsra.h"
+#include "vsrai.h"
+#include "vsrl.h"
+#include "vsrli.h"
 
 // Compare operations
-#include "inst/vbcmpi.h"
-#include "inst/vbcmpil.h"
-#include "inst/vscmp.h"
-#include "inst/vscmpi.h"
+#include "vbcmpi.h"
+#include "vbcmpil.h"
+#include "vscmp.h"
+#include "vscmpi.h"
 
 // PC
-#include "inst/vpcaddi.h"
+#include "vpcaddi.h"
 
 // Jumps and PC change instructions
-#include "inst/vbcmp.h"
-#include "inst/vbfp.h"
-#include "inst/vjl.h"
-#include "inst/vjlr.h"
-#include "inst/vjr.h"
-#include "inst/vjump.h"
+#include "vbcmp.h"
+#include "vbfp.h"
+#include "vjl.h"
+#include "vjlr.h"
+#include "vjr.h"
+#include "vjump.h"
 
 // Load instructions
-#include "inst/vload.h"
-#include "inst/vpartialload.h"
+#include "vload.h"
+#include "vpartialload.h"
 
 // Store instructions
-#include "inst/vpartialstore.h"
-#include "inst/vstore.h"
-#include "inst/vstorecond.h"
+#include "vpartialstore.h"
+#include "vstore.h"
+#include "vstorecond.h"
 
 // Conditional move instructions
-#include "inst/vcimov.h"
+#include "vcimov.h"
 
 // Fence Instructions
-#include "inst/vfence.h"
+#include "vfence.h"
 
 // Special instructions
-#include "inst/vdecodealignfault.h"
-#include "inst/vdecodefaultinst.h"
-#include "inst/vfault.h"
-#include "inst/vnop.h"
-#include "inst/vsetreg.h"
-#include "inst/vsetregcallable.h"
-#include "inst/vsyscall.h"
+#include "vdecodealignfault.h"
+#include "vdecodefaultinst.h"
+#include "vfault.h"
+#include "vnop.h"
+#include "vsetreg.h"
+#include "vsetregcallable.h"
+#include "vsyscall.h"
 
 // int-reg move
-#include "inst/vmovci.h"
+#include "vmovci.h"
 
 // FP Convert/Move
-#include "inst/vfp2fp.h"
-#include "inst/vfp2gpr.h"
-#include "inst/vfpconv.h"
-#include "inst/vgpr2fp.h"
+#include "vfp2fp.h"
+#include "vfp2gpr.h"
+#include "vfpconv.h"
+#include "vgpr2fp.h"
 
 // FP Arith
-#include "inst/vfpadd.h"
-#include "inst/vfpmadd.h"
-#include "inst/vfpmsub.h"
-#include "inst/vfpdiv.h"
-#include "inst/vfpmul.h"
-#include "inst/vfpmin.h"
-#include "inst/vfpsqrt.h"
-#include "inst/vfpscmp.h"
-#include "inst/vfpsignlogic.h"
-#include "inst/vfpsub.h"
-#include "inst/vmipsfpscmp.h"
+#include "vfpadd.h"
+#include "vfpmadd.h"
+#include "vfpmsub.h"
+#include "vfpdiv.h"
+#include "vfpmul.h"
+#include "vfpmin.h"
+#include "vfpsqrt.h"
+#include "vfpscmp.h"
+#include "vfpsignlogic.h"
+#include "vfpsub.h"
+#include "vmipsfpscmp.h"
 
 // Truncate
-#include "inst/vtrunc.h"
+#include "vtrunc.h"
 
 // FP Flags
-#include "inst/vfpflagssetimm.h"
-#include "inst/vfpflagsset.h"
-#include "inst/vfpflagsread.h"
+#include "vfpflagssetimm.h"
+#include "vfpflagsset.h"
+#include "vfpflagsread.h"
 
 #endif

@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_SYSCALL_WRITEV
 #define _H_VANADIS_SYSCALL_WRITEV
 
-#include "os/voscallev.h"
-#include "os/callev/voscalliovec.h"
+#include "../voscallev.h"
+#include "voscalliovec.h"
 
 namespace SST {
 namespace Vanadis {

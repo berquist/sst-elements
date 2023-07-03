@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_INSTRUCTION_FAULT
 #define _H_VANADIS_INSTRUCTION_FAULT
 
-#include "decoder/visaopts.h"
-#include "inst/vinst.h"
-#include "inst/vinsttype.h"
+#include "../decoder/visaopts.h"
+#include "vinst.h"
+#include "vinsttype.h"
 
 namespace SST {
 namespace Vanadis {

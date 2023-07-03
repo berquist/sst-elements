@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_INSTRUCTION_DECODE_ALIGN_FAULT
 #define _H_VANADIS_INSTRUCTION_DECODE_ALIGN_FAULT
 
-#include "decoder/visaopts.h"
-#include "inst/vfault.h"
-#include "inst/vinsttype.h"
+#include "../decoder/visaopts.h"
+#include "vfault.h"
+#include "vinsttype.h"
 
 namespace SST {
 namespace Vanadis {

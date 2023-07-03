@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_LOAD
 #define _H_VANADIS_LOAD
 
-#include "inst/vmemflagtype.h"
+#include "vmemflagtype.h"
 
 namespace SST {
 namespace Vanadis {

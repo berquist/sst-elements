@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_STORE_PARTIAL
 #define _H_VANADIS_STORE_PARTIAL
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

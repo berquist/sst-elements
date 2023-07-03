@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_OP_SYS2
 #define _H_VANADIS_OP_SYS2
 
-#include "os/vcpuos.h"
+#include "vcpuos.h"
 
 namespace SST {
 namespace Vanadis {

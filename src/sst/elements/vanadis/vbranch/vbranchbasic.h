@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_BRANCH_UNIT_BASIC
 #define _H_VANADIS_BRANCH_UNIT_BASIC
 
-#include "vbranch/vbranchunit.h"
+#include "vbranchunit.h"
 
 #include <list>
 #include <unordered_map>

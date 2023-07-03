@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_SPECULATE
 #define _H_VANADIS_SPECULATE
 
-#include "inst/vdelaytype.h"
-#include "inst/vinst.h"
+#include "vdelaytype.h"
+#include "vinst.h"
 
 #define VANADIS_SPECULATE_JUMP_ADDR_ADD 4
 

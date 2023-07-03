@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_FP_FPFLAGS_READ
 #define _H_VANADIS_FP_FPFLAGS_READ
 
-#include "inst/vfpinst.h"
-#include "inst/vregfmt.h"
-#include "util/vfpreghandler.h"
+#include "vfpinst.h"
+#include "vregfmt.h"
+#include "../util/vfpreghandler.h"
 
 #include <type_traits>
 

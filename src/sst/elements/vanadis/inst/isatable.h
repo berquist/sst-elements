@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_ISA_TABLE
 #define _H_VANADIS_ISA_TABLE
 
-#include "decoder/visaopts.h"
-#include "inst/regfile.h"
+#include "../decoder/visaopts.h"
+#include "regfile.h"
 
 #include <cstdint>
 

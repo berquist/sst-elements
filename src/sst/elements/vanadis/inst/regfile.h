@@ -17,8 +17,8 @@
 #define _H_VANADIS_REG_FILE
 
 
-#include "decoder/visaopts.h"
-#include "inst/fpregmode.h"
+#include "../decoder/visaopts.h"
+#include "fpregmode.h"
 
 #include <cstring>
 #include <sst/core/output.h>

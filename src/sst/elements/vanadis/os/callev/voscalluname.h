@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SYSCALL_UNAME
 #define _H_VANADIS_SYSCALL_UNAME
 
-#include "os/voscallev.h"
+#include "../voscallev.h"
 
 namespace SST {
 namespace Vanadis {

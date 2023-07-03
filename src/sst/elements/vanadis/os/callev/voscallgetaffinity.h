@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_SYSCALL_SCHED_AFFINITY
 #define _H_VANADIS_SYSCALL_SCHED_AFFINITY
 
-#include "os/voscallev.h"
-#include "os/vosbittype.h"
+#include "../voscallev.h"
+#include "../vosbittype.h"
 
 namespace SST {
 namespace Vanadis {

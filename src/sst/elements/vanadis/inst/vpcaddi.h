@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_PC_ADDI
 #define _H_VANADIS_PC_ADDI
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SETREG_BY_CALL
 #define _H_VANADIS_SETREG_BY_CALL
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 #include <functional>
 

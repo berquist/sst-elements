@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_COMPARE_OP
 #define _H_VANADIS_COMPARE_OP
 
-#include "inst/regfile.h"
-#include "inst/vcmptype.h"
+#include "../inst/regfile.h"
+#include "../inst/vcmptype.h"
 
 #include <cinttypes>
 #include <cstdint>

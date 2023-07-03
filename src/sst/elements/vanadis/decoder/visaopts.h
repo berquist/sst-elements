@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_ISA_OPTIONS
 #define _H_VANADIS_ISA_OPTIONS
 
-#include "inst/fpregmode.h"
+#include "../inst/fpregmode.h"
 
 #include <cinttypes>
 #include <cstdint>

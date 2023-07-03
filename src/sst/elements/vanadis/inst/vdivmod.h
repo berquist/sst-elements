@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_DIV_REMAIN
 #define _H_VANADIS_DIV_REMAIN
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

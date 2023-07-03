@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_GPR_2_FP
 #define _H_VANADIS_GPR_2_FP
 
-#include "inst/vfpinst.h"
-#include "inst/vregfmt.h"
-//#include "util/vtypename.h"
+#include "vfpinst.h"
+#include "vregfmt.h"
+//#include "../util/vtypename.h"
 
 #include <vector>
 

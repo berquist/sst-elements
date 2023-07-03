@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_JUMP_REG
 #define _H_VANADIS_JUMP_REG
 
-#include "inst/vspeculate.h"
+#include "vspeculate.h"
 
 namespace SST {
 namespace Vanadis {

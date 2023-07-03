@@ -16,14 +16,14 @@
 #ifndef _H_VANADIS_MIPS_DECODER
 #define _H_VANADIS_MIPS_DECODER
 
-#include "decoder/vauxvec.h"
-#include "decoder/vdecoder.h"
-#include "inst/isatable.h"
-#include "inst/vinstall.h"
-#include "os/vmipscpuos.h"
-#include "util/vdatacopy.h"
-#include "util/vsignx.h"
-#include "vinsloader.h"
+#include "vauxvec.h"
+#include "vdecoder.h"
+#include "../inst/isatable.h"
+#include "../inst/vinstall.h"
+#include "../os/vmipscpuos.h"
+#include "../util/vdatacopy.h"
+#include "../util/vsignx.h"
+#include "../vinsloader.h"
 
 #include <list>
 #include <functional>

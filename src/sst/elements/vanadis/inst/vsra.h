@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_SRA
 #define _H_VANADIS_SRA
 
-#include "inst/vinst.h"
-#include "inst/vregfmt.h"
+#include "vinst.h"
+#include "vregfmt.h"
 
 namespace SST {
 namespace Vanadis {

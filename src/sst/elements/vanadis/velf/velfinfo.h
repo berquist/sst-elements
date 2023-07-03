@@ -18,7 +18,7 @@
 
 #include <cinttypes>
 #include <cstdio>
-#include "os/vosDbgFlags.h"
+#include "../os/vosDbgFlags.h"
 
 namespace SST {
 namespace Vanadis {

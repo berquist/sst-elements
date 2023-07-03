@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_JUMP
 #define _H_VANADIS_JUMP
 
-#include "inst/vinst.h"
-#include "inst/vspeculate.h"
+#include "vinst.h"
+#include "vspeculate.h"
 
 #include <cstdio>
 

@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_SYSCALL_SET_ROBUST_LIST
 #define _H_VANADIS_SYSCALL_SET_ROBUST_LIST
 
-#include "os/voscallev.h"
-#include "os/vosbittype.h"
+#include "../voscallev.h"
+#include "../vosbittype.h"
 
 namespace SST {
 namespace Vanadis {

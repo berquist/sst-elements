@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_SET_REG_COMPARE
 #define _H_VANADIS_SET_REG_COMPARE
 
-#include "inst/vcmptype.h"
-#include "inst/vinst.h"
-#include "util/vcmpop.h"
+#include "vcmptype.h"
+#include "vinst.h"
+#include "../util/vcmpop.h"
 
 namespace SST {
 namespace Vanadis {

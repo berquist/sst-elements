@@ -20,11 +20,11 @@
 #define PRIdXX PRId32
 #define PRIxXX PRIx32
 
-#include "os/callev/voscallall.h"
-#include "os/resp/voscallresp.h"
-#include "os/vstartthreadreq.h"
-#include "os/vcpuos2.h"
-#include "os/voscallev.h"
+#include "callev/voscallall.h"
+#include "resp/voscallresp.h"
+#include "vstartthreadreq.h"
+#include "vcpuos2.h"
+#include "voscallev.h"
 #include <functional>
 #include <sys/mman.h>
 

@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_BRANCH_FP
 #define _H_VANADIS_BRANCH_FP
 
-#include "inst/vspeculate.h"
+#include "vspeculate.h"
 
 namespace SST {
 namespace Vanadis {

@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_MOD
 #define _H_VANADIS_MOD
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

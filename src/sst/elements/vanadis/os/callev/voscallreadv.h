@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SYSCALL_READV
 #define _H_VANADIS_SYSCALL_READV
 
-#include "os/callev/voscalliovec.h"
+#include "voscalliovec.h"
 
 namespace SST {
 namespace Vanadis {

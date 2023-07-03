@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_SYSCALL
 #define _H_VANADIS_SYSCALL
 
-#include "inst/vspeculate.h"
+#include "vspeculate.h"
 
 namespace SST {
 namespace Vanadis {

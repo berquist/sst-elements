@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_BRANCH_REG_COMPARE_IMM_LINK
 #define _H_VANADIS_BRANCH_REG_COMPARE_IMM_LINK
 
-#include "inst/vcmptype.h"
-#include "inst/vspeculate.h"
-#include "util/vcmpop.h"
+#include "vcmptype.h"
+#include "vspeculate.h"
+#include "../util/vcmpop.h"
 
 namespace SST {
 namespace Vanadis {

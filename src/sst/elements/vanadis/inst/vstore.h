@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_STORE
 #define _H_VANADIS_STORE
 
-#include "inst/vinst.h"
-#include "inst/vmemflagtype.h"
+#include "vinst.h"
+#include "vmemflagtype.h"
 
 namespace SST {
 namespace Vanadis {

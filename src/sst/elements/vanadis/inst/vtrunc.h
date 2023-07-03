@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_TRUNCATE
 #define _H_VANADIS_TRUNCATE
 
-#include "inst/vinst.h"
+#include "vinst.h"
 
 namespace SST {
 namespace Vanadis {

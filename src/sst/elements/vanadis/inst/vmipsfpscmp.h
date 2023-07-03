@@ -16,10 +16,10 @@
 #ifndef _H_VANADIS_MIPS_FP_SET_REG_COMPARE
 #define _H_VANADIS_MIPS_FP_SET_REG_COMPARE
 
-#include "inst/vcmptype.h"
-#include "inst/vinst.h"
-#include "inst/vregfmt.h"
-#include "util/vfpreghandler.h"
+#include "vcmptype.h"
+#include "vinst.h"
+#include "vregfmt.h"
+#include "../util/vfpreghandler.h"
 
 #define VANADIS_MIPS_FP_COMPARE_BIT         0x00800000
 #define VANADIS_MIPS_FP_COMPARE_BIT_INVERSE 0xFF7FFFFF
