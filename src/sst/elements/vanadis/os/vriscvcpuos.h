@@ -20,9 +20,9 @@
 #define PRIdXX PRId64
 #define PRIxXX PRIx64
 
-#include "os/callev/voscallall.h"
-#include "os/vcpuos2.h"
-#include "os/voscallev.h"
+#include "callev/voscallall.h"
+#include "vcpuos2.h"
+#include "voscallev.h"
 #include <functional>
 
 #include <fcntl.h>

@@ -17,9 +17,9 @@
 #include <stdint.h>
 #include <string>
 #include <math.h>
-#include "os/velfloader.h"
-#include "os/vloadpage.h"
-#include "os/vosDbgFlags.h"
+#include "velfloader.h"
+#include "vloadpage.h"
+#include "vosDbgFlags.h"
 
 namespace SST {
 namespace Vanadis {

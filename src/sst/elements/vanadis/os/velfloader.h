@@ -16,11 +16,11 @@
 #ifndef _H_VANADIS_OS_LOAD_ELF
 #define _H_VANADIS_OS_LOAD_ELF
 
-#include "sst/core/interfaces/stdMem.h"
-#include "velf/velfinfo.h"
-#include "sst/elements/mmu/mmu.h"
-#include "os/vphysmemmanager.h"
-#include "os/include/process.h"
+#include <sst/core/interfaces/stdMem.h>
+#include "../velf/velfinfo.h"
+#include <sst/elements/mmu/mmu.h>
+#include "vphysmemmanager.h"
+#include "include/process.h"
 
 namespace SST {
 namespace Vanadis {

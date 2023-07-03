@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_RISCV64_DECODER
 #define _H_VANADIS_RISCV64_DECODER
 
-#include "decoder/vdecoder.h"
-#include "inst/vinstall.h"
-#include "os/vriscvcpuos.h"
+#include "vdecoder.h"
+#include "../inst/vinstall.h"
+#include "../os/vriscvcpuos.h"
 
 #include <cstdint>
 #include <cstring>
