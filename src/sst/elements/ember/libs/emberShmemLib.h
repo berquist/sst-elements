@@ -16,8 +16,8 @@
 #ifndef _H_EMBER_SHMEM_LIB
 #define _H_EMBER_SHMEM_LIB
 
-#include "libs/emberLib.h"
-#include "sst/elements/hermes/shmemapi.h"
+#include "emberLib.h"
+#include <sst/elements/hermes/shmemapi.h>
 
 #include "shmem/emberShmemInitEv.h"
 #include "shmem/emberShmemFiniEv.h"

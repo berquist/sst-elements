@@ -7,4 +7,5 @@ set(SRC
 )
 
 add_library(Opal ${SRC})
-target_link_libraries(Opal SST::SSTCore)
+target_include_directories(Opal PUBLIC ${CMAKE_SOURCE_DIR}/src)
+target_link_libraries(Opal memHierarchy)

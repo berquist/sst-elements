@@ -5,4 +5,4 @@ set(SRC
 )
 
 add_library(balar ${SRC})
-target_link_libraries(balar SST::SSTCore)
+target_link_libraries(balar Opal)

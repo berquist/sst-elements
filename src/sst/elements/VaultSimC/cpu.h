@@ -18,10 +18,10 @@
 #define _CPU_H
 
 #include <sst/core/component.h>
-#include <sst/elements/VaultSimC/memReqEvent.h>
 #include <sst/core/rng/rng.h>
 #include <sst/core/output.h>
 
+#include "memReqEvent.h"
 
 using namespace std;
 

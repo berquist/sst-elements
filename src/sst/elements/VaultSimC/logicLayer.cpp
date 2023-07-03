@@ -13,13 +13,13 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <logicLayer.h>
+#include "logicLayer.h"
 
 #include <sst/core/interfaces/stringEvent.h>
 #include <sst/elements/memHierarchy/memEvent.h>
-#include <sst/elements/VaultSimC/memReqEvent.h>
 #include <sst/core/link.h>
 #include <sst/core/params.h>
+#include "memReqEvent.h"
 
 using namespace SST;
 using namespace SST::MemHierarchy;

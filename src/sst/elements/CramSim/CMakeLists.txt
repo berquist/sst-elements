@@ -1,6 +1,6 @@
 set(SRC
     CramSim.cpp
-    TxnDispatcher.cpp
+    # TxnDispatcher.cpp
     c_AddressHasher.cpp
     c_Bank.cpp
     c_BankCommand.cpp

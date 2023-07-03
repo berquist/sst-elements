@@ -16,9 +16,9 @@
 #ifndef _H_EMBER_SHMEM_GENERATOR
 #define _H_EMBER_SHMEM_GENERATOR
 
-#include "embergen.h"
-#include "libs/emberShmemLib.h"
-#include "libs/misc.h"
+#include "../embergen.h"
+#include "../libs/emberShmemLib.h"
+#include "../libs/misc.h"
 
 #define enQ_init shmem().init
 #define enQ_n_pes shmem().n_pes

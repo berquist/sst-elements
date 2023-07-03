@@ -70,4 +70,4 @@ set(SRC
 )
 
 add_library(ember ${SRC})
-target_link_libraries(ember SST::SSTCore)
+target_link_libraries(ember hermes)

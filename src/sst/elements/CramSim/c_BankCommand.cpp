@@ -28,7 +28,6 @@
 // limitations under the License.
 
 #include <assert.h>
-#include "sst/core/output.h"
 #include "c_BankCommand.hpp"
 //#include "c_Transaction.hpp"
 

@@ -26,7 +26,7 @@
 #include "sst/elements/memHierarchy/memTypes.h"
 
 // Other Includes, from original balar file
-#include "mempool.h"
+#include <sst/elements/Opal/mempool.h>
 #include "host_defines.h"
 #include "builtin_types.h"
 #include "driver_types.h"
