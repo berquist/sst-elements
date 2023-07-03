@@ -27,9 +27,9 @@
 #include <llvm/IR/BasicBlock.h>
 #include <llvm/IR/Instruction.h>
 
-#include "graph/graph.h"
-#include "llyrTypes.h"
-#include "pes/peList.h"
+#include "../graph/graph.h"
+#include "../llyrTypes.h"
+#include "../pes/peList.h"
 
 namespace SST {
 namespace Llyr {
