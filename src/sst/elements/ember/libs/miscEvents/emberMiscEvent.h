@@ -17,7 +17,7 @@
 #ifndef _H_EMBER_MISC_EVENT
 #define _H_EMBER_MISC_EVENT
 
-#include "emberevent.h"
+#include "../../emberevent.h"
 #include <sst/elements/hermes/miscapi.h>
 
 using namespace Hermes;

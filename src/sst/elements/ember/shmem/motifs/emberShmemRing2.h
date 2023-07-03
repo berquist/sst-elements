@@ -18,7 +18,7 @@
 #define _H_EMBER_SHMEM_RING2
 
 #include <strings.h>
-#include "shmem/emberShmemGen.h"
+#include "../emberShmemGen.h"
 #include <cxxabi.h>
 
 namespace SST {

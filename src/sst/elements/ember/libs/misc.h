@@ -17,11 +17,11 @@
 #ifndef _H_EMBER_MISCLIB_NODE
 #define _H_EMBER_MISCLIB_NODE
 
-#include "embergen.h"
-#include "libs/emberLib.h"
-#include "libs/miscEvents/emberGetNodeNumEvent.h"
-#include "libs/miscEvents/emberGetNumNodesEvent.h"
-#include "libs/miscEvents/emberMallocEvent.h"
+#include "../embergen.h"
+#include "../libs/emberLib.h"
+#include "../libs/miscEvents/emberGetNodeNumEvent.h"
+#include "../libs/miscEvents/emberGetNumNodesEvent.h"
+#include "../libs/miscEvents/emberMallocEvent.h"
 
 using namespace Hermes;
 

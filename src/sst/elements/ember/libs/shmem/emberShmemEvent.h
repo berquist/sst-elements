@@ -17,7 +17,7 @@
 #ifndef _H_EMBER_SHMEM_EVENT
 #define _H_EMBER_SHMEM_EVENT
 
-#include "emberevent.h"
+#include "../../emberevent.h"
 
 using namespace Hermes;
 

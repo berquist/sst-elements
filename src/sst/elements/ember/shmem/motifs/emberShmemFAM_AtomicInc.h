@@ -18,14 +18,14 @@
 #define _H_EMBER_SHMEM_FAM_ATOMIC_INC
 
 #include <strings.h>
-#include "shmem/emberShmemGen.h"
+#include "../emberShmemGen.h"
 #include <cxxabi.h>
 
 #define USE_SST_RNG 1
 #ifdef USE_SST_RNG
-#include "rng/xorshift.h"
+#include <sst/core/rng/xorshift.h>
 #endif
-#include "libs/misc.h"
+#include "../../libs/misc.h"
 
 namespace SST {
 namespace Ember {

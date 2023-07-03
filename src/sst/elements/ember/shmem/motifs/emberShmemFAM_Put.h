@@ -18,11 +18,11 @@
 #define _H_EMBER_SHMEM_FAM_PUT
 
 #include <strings.h>
-#include "shmem/emberShmemGen.h"
+#include "../emberShmemGen.h"
 #include <unistd.h>
 #include <pthread.h>
 #include <sys/types.h>
-#include "rng/xorshift.h"
+#include <sst/core/rng/xorshift.h>
 
 #include <unistd.h>
 

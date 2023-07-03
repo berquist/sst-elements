@@ -18,7 +18,7 @@
 #define _H_EMBER_SHMEM_BARRIER_ALL
 
 #include <strings.h>
-#include "shmem/emberShmemGen.h"
+#include "../emberShmemGen.h"
 
 namespace SST {
 namespace Ember {

@@ -19,7 +19,7 @@
 
 #include <type_traits>
 #include <strings.h>
-#include "shmem/emberShmemGen.h"
+#include "../emberShmemGen.h"
 #include <cxxabi.h>
 
 namespace SST {
