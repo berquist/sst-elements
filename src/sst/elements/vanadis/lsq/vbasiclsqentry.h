@@ -15,10 +15,10 @@
 
 #include <sst/core/interfaces/stdMem.h>
 
-#include "inst/vinst.h"
-#include "inst/vload.h"
-#include "inst/vstore.h"
-#include "inst/vfence.h"
+#include "../inst/vinst.h"
+#include "../inst/vload.h"
+#include "../inst/vstore.h"
+#include "../inst/vfence.h"
 
 using namespace SST::Interfaces;
 

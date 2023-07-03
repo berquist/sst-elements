@@ -15,7 +15,7 @@
 
 
 #include "futex.h"
-#include "os/vnodeos.h"
+#include "../vnodeos.h"
 
 #define FUTEX_WAIT      0
 #define FUTEX_WAKE      1

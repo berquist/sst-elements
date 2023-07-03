@@ -18,7 +18,7 @@
 
 #include "syscall.h"
 #include "../callev/voscallmmap.h"
-#include "os/include/device.h"
+#include "../include/device.h"
 
 namespace SST {
 namespace Vanadis {

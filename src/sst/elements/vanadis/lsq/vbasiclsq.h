@@ -20,10 +20,10 @@
 #include <sst/core/subcomponent.h>
 #include <sst/core/interfaces/stdMem.h>
 
-#include "lsq/vlsq.h"
-#include "lsq/vbasiclsqentry.h"
-#include "util/vsignx.h"
-#include "inst/vstorecond.h"
+#include "vlsq.h"
+#include "vbasiclsqentry.h"
+#include "../util/vsignx.h"
+#include "../inst/vstorecond.h"
 
 #include <cassert>
 #include <cinttypes>

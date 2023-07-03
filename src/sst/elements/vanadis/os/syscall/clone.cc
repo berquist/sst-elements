@@ -15,8 +15,8 @@
 
 
 #include "clone.h"
-#include "os/vnodeos.h"
-#include "os/vgetthreadstate.h"
+#include "../vnodeos.h"
+#include "../vgetthreadstate.h"
 
 using namespace SST::Vanadis;
 

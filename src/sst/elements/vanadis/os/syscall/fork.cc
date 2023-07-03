@@ -15,7 +15,7 @@
 
 
 #include "fork.h"
-#include "os/vnodeos.h"
+#include "../vnodeos.h"
 
 using namespace SST::Vanadis;
 

@@ -15,9 +15,9 @@
 
 
 #include "exit.h"
-#include "os/vnodeos.h"
-#include "os/vgetthreadstate.h"
-#include "os/resp/vosexitresp.h"
+#include "../vnodeos.h"
+#include "../vgetthreadstate.h"
+#include "../resp/vosexitresp.h"
 
 using namespace SST::Vanadis;
 
