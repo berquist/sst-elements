@@ -25,7 +25,7 @@
 #include "../vgetthreadstate.h"
 #include "../resp/voscallresp.h"
 #include "../vosDbgFlags.h"
-o
+
 using namespace SST::Interfaces;
 
 #define LINUX_EBADF            9
