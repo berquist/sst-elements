@@ -19,13 +19,13 @@
 #include <sst/core/link.h>
 #include <sst/core/interfaces/stdMem.h>
 #include <sst/core/output.h>
-#include "util/vlinesplit.h"
-#include "os/voscallev.h"
-#include "os/include/process.h"
-#include "os/vgetthreadstate.h"
-#include "os/resp/voscallresp.h"
-#include "os/vosDbgFlags.h"
-
+#include "../../util/vlinesplit.h"
+#include "../voscallev.h"
+#include "../include/process.h"
+#include "../vgetthreadstate.h"
+#include "../resp/voscallresp.h"
+#include "../vosDbgFlags.h"
+o
 using namespace SST::Interfaces;
 
 #define LINUX_EBADF            9

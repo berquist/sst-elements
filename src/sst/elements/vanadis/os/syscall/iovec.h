@@ -16,7 +16,7 @@
 #ifndef _H_VANADIS_OS_SYSCALL_IOVEC
 #define _H_VANADIS_OS_SYSCALL_IOVEC
 
-#include "os/syscall/syscall.h"
+#include "syscall.h"
 
 namespace SST {
 namespace Vanadis {

@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_OPENAT
 #define _H_VANADIS_OS_SYSCALL_OPENAT
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallopenat.h"
+#include "syscall.h"
+#include "../callev/voscallopenat.h"
 
 namespace SST {
 namespace Vanadis {

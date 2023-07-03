@@ -13,9 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 
-#include "os/syscall/mprotect.h"
+#include "mprotect.h"
 #include "os/vnodeos.h"
 
 using namespace SST::Vanadis;

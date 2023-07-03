@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_WRITE
 #define _H_VANADIS_OS_SYSCALL_WRITE
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallwrite.h"
+#include "syscall.h"
+#include "../callev/voscallwrite.h"
 
 namespace SST {
 namespace Vanadis {

@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_MPROTECT
 #define _H_VANADIS_OS_SYSCALL_MPROTECT
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallmprotect.h"
+#include "syscall.h"
+#include "../callev/voscallmprotect.h"
 
 namespace SST {
 namespace Vanadis {

@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_SET_ROBUST_LIST
 #define _H_VANADIS_OS_SYSCALL_SET_ROBUST_LIST
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallsetrobustlist.h"
+#include "syscall.h"
+#include "../callev/voscallsetrobustlist.h"
 
 namespace SST {
 namespace Vanadis {

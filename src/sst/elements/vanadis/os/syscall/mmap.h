@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_MMAP
 #define _H_VANADIS_OS_SYSCALL_MMAP
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallmmap.h"
+#include "syscall.h"
+#include "../callev/voscallmmap.h"
 #include "os/include/device.h"
 
 namespace SST {

@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_SET_TID_ADDRESS
 #define _H_VANADIS_OS_SYSCALL_SET_TID_ADDRESS
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallsettidaddr.h"
+#include "syscall.h"
+#include "../callev/voscallsettidaddr.h"
 
 namespace SST {
 namespace Vanadis {

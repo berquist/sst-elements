@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_CLONE
 #define _H_VANADIS_OS_SYSCALL_CLONE
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallclone.h"
+#include "syscall.h"
+#include "../callev/voscallclone.h"
 
 namespace SST {
 namespace Vanadis {

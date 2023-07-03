@@ -22,17 +22,17 @@
 #include <sst/core/component.h>
 #include <sst/core/interfaces/stdMem.h>
 
-#include "os/vosDbgFlags.h"
-#include "os/include/hwThreadID.h"
-#include "os/voscallev.h"
-#include "os/vstartthreadreq.h"
-#include "os/vappruntimememory.h"
-#include "os/vphysmemmanager.h"
-#include "os/include/process.h"
-#include "os/syscall/fork.h"
-#include "os/syscall/clone.h"
-#include "os/syscall/exit.h"
-#include "os/syscall/syscall.h"
+#include "vosDbgFlags.h"
+#include "include/hwThreadID.h"
+#include "voscallev.h"
+#include "vstartthreadreq.h"
+#include "vappruntimememory.h"
+#include "vphysmemmanager.h"
+#include "include/process.h"
+#include "syscall/fork.h"
+#include "syscall/clone.h"
+#include "syscall/exit.h"
+#include "syscall/syscall.h"
 
 
 using namespace SST::Interfaces;

@@ -13,9 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 
-#include "os/syscall/clone.h"
+#include "clone.h"
 #include "os/vnodeos.h"
 #include "os/vgetthreadstate.h"
 

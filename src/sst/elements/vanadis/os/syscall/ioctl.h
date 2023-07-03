@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_IOCTL
 #define _H_VANADIS_OS_SYSCALL_IOCTL
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallioctl.h"
+#include "syscall.h"
+#include "../callev/voscallioctl.h"
 
 namespace SST {
 namespace Vanadis {

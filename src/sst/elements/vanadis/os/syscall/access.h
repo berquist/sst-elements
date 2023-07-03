@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_ACCESS
 #define _H_VANADIS_OS_SYSCALL_ACCESS
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallaccessev.h"
+#include "syscall.h"
+#include "../callev/voscallaccessev.h"
 
 namespace SST {
 namespace Vanadis {

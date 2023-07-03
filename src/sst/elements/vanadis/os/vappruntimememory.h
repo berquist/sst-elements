@@ -20,20 +20,20 @@
 #include <stdint.h>
 #include <unistd.h>
 #include <string>
-#include "sst/core/interfaces/stdMem.h"
+#include <sst/core/interfaces/stdMem.h>
 #include <sst/core/module.h>
 #include <sst/core/rng/xorshift.h>
 
 
-#include "velf/velfinfo.h"
-#include "util/vdatacopy.h"
-#include "decoder/vauxvec.h"
+#include "../velf/velfinfo.h"
+#include "../util/vdatacopy.h"
+#include "../decoder/vauxvec.h"
 #include <sst/core/module.h>
 
-#include "sst/elements/mmu/mmu.h"
-#include "os/vphysmemmanager.h"
-#include "os/vloadpage.h"
-#include "os/include/process.h"
+#include <sst/elements/mmu/mmu.h>
+#include "vphysmemmanager.h"
+#include "vloadpage.h"
+#include "include/process.h"
 
 namespace SST {
 namespace Vanadis {

@@ -13,9 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 
-#include "os/syscall/futex.h"
+#include "futex.h"
 #include "os/vnodeos.h"
 
 #define FUTEX_WAIT      0

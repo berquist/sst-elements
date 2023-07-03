@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_GETPID
 #define _H_VANADIS_OS_SYSCALL_GETPID
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallgetx.h"
+#include "syscall.h"
+#include "../callev/voscallgetx.h"
 
 namespace SST {
 namespace Vanadis {

@@ -20,10 +20,10 @@
 #include <iterator>
 #include <string>
 #include <string.h>
-#include "velf/velfinfo.h"
-#include "os/include/freeList.h"
-#include "os/include/page.h"
-#include "os/include/device.h"
+#include "../../velf/velfinfo.h"
+#include "freeList.h"
+#include "page.h"
+#include "device.h"
 
 #if 0
 #define VirtMemDbg( format, ... ) printf( "VirtMemMap::%s() " format, __func__, ##__VA_ARGS__ )

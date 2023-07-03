@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_GETAFFINITY
 #define _H_VANADIS_OS_SYSCALL_GETAFFINITY
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallgetaffinity.h"
+#include "syscall.h"
+#include "../callev/voscallgetaffinity.h"
 
 namespace SST {
 namespace Vanadis {

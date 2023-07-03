@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_UNLINK
 #define _H_VANADIS_OS_SYSCALL_UNLINK
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallunlink.h"
+#include "syscall.h"
+#include "../callev/voscallunlink.h"
 
 namespace SST {
 namespace Vanadis {

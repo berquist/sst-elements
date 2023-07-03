@@ -14,9 +14,8 @@
 // distribution.
 
 
-#include <sst_config.h>
 #include <math.h>
-#include "os/vloadpage.h"
+#include "vloadpage.h"
 
 namespace SST {
 namespace Vanadis {

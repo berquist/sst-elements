@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_CLOSE
 #define _H_VANADIS_OS_SYSCALL_CLOSE
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallclose.h"
+#include "syscall.h"
+#include "../callev/voscallclose.h"
 
 namespace SST {
 namespace Vanadis {

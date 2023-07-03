@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_UNMAP
 #define _H_VANADIS_OS_SYSCALL_UNMAP
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallunmap.h"
+#include "syscall.h"
+#include "../callev/voscallunmap.h"
 
 namespace SST {
 namespace Vanadis {

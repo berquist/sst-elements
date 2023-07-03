@@ -14,20 +14,19 @@
 // distribution.
 
 #include <math.h>
-#include <sst_config.h>
 #include <sst/core/component.h>
 
 #include <functional>
 
-#include "os/vgetthreadstate.h"
-#include "os/resp/voscallresp.h"
-#include "os/resp/vosexitresp.h"
-#include "os/vnodeos.h"
-#include "os/voscallev.h"
-#include "os/velfloader.h"
-#include "os/vstartthreadreq.h"
-#include "os/vdumpregsreq.h"
-#include "sst/elements/mmu/utils.h"
+#include "vgetthreadstate.h"
+#include "resp/voscallresp.h"
+#include "resp/vosexitresp.h"
+#include "vnodeos.h"
+#include "voscallev.h"
+#include "velfloader.h"
+#include "vstartthreadreq.h"
+#include "vdumpregsreq.h"
+#include <sst/elements/mmu/utils.h>
 
 using namespace SST::Vanadis;
 

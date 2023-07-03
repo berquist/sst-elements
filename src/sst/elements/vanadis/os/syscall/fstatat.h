@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_FSTATAT
 #define _H_VANADIS_OS_SYSCALL_FSTATAT
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallfstatat.h"
+#include "syscall.h"
+#include "../callev/voscallfstatat.h"
 
 #if 0
 struct timespec_64 {

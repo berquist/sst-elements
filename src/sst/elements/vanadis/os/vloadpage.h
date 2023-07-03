@@ -18,11 +18,11 @@
 
 
 
-#include "sst/core/interfaces/stdMem.h"
-#include "sst/core/output.h"
-#include "velf/velfinfo.h"
-#include "sst/elements/mmu/mmu.h"
-#include "os/vphysmemmanager.h"
+#include <sst/core/interfaces/stdMem.h>
+#include <sst/core/output.h>
+#include "../velf/velfinfo.h"
+#include <sst/elements/mmu/mmu.h>
+#include "vphysmemmanager.h"
 
 
 namespace SST {

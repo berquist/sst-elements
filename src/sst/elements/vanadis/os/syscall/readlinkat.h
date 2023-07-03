@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_READLINKAT
 #define _H_VANADIS_OS_SYSCALL_READLINKAT
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallreadlinkat.h"
+#include "syscall.h"
+#include "../callev/voscallreadlinkat.h"
 
 namespace SST {
 namespace Vanadis {

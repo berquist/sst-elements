@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_KILL
 #define _H_VANADIS_OS_SYSCALL_KILL
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallkill.h"
+#include "syscall.h"
+#include "../callev/voscallkill.h"
 
 namespace SST {
 namespace Vanadis {

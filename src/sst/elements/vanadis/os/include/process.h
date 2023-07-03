@@ -21,13 +21,13 @@
 
 #include "sst/elements/mmu/mmu.h"
 
-#include "os/include/hwThreadID.h"
-#include "os/include/virtMemMap.h"
-#include "os/include/fdTable.h"
-#include "os/include/futex.h"
-#include "os/include/threadGrp.h"
-#include "os/include/page.h"
-#include "os/vphysmemmanager.h"
+#include "hwThreadID.h"
+#include "virtMemMap.h"
+#include "fdTable.h"
+#include "futex.h"
+#include "threadGrp.h"
+#include "page.h"
+#include "../vphysmemmanager.h"
 
 namespace SST {
 namespace Vanadis {

@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_UNAME
 #define _H_VANADIS_OS_SYSCALL_UNAME
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscalluname.h"
+#include "syscall.h"
+#include "../callev/voscalluname.h"
 
 namespace SST {
 namespace Vanadis {

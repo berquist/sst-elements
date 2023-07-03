@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_FSTAT
 #define _H_VANADIS_OS_SYSCALL_FSTAT
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallfstat.h"
+#include "syscall.h"
+#include "../callev/voscallfstat.h"
 
 struct timespec_64 {
     uint64_t tv_sec;

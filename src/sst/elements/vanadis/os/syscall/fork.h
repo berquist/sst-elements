@@ -16,9 +16,9 @@
 #ifndef _H_VANADIS_OS_SYSCALL_FORK
 #define _H_VANADIS_OS_SYSCALL_FORK
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallfork.h"
-#include "os/include/hwThreadID.h"
+#include "syscall.h"
+#include "../callev/voscallfork.h"
+#include "../include/hwThreadID.h"
 
 namespace SST {
 namespace Vanadis {

@@ -13,9 +13,8 @@
 // information, see the LICENSE file in the top level directory of the
 // distribution.
 
-#include <sst_config.h>
 
-#include "os/syscall/fork.h"
+#include "fork.h"
 #include "os/vnodeos.h"
 
 using namespace SST::Vanadis;

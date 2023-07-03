@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_FUTEX
 #define _H_VANADIS_OS_SYSCALL_FUTEX
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallfutex.h"
+#include "syscall.h"
+#include "../callev/voscallfutex.h"
 
 namespace SST {
 namespace Vanadis {

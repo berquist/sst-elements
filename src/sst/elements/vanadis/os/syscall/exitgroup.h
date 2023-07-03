@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_EXIT_GROUP
 #define _H_VANADIS_OS_SYSCALL_EXIT_GROUP
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallexitgrp.h"
+#include "syscall.h"
+#include "../callev/voscallexitgrp.h"
 
 namespace SST {
 namespace Vanadis {

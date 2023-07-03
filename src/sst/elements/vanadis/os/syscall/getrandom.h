@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_GETRANDOM
 #define _H_VANADIS_OS_SYSCALL_GETRANDOM
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallgetrandom.h"
+#include "syscall.h"
+#include "../callev/voscallgetrandom.h"
 #include <sst/core/rng/xorshift.h>
 
 

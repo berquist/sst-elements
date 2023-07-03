@@ -16,8 +16,8 @@
 #ifndef _H_VANADIS_OS_SYSCALL_BRK
 #define _H_VANADIS_OS_SYSCALL_BRK
 
-#include "os/syscall/syscall.h"
-#include "os/callev/voscallbrk.h"
+#include "syscall.h"
+#include "../callev/voscallbrk.h"
 
 namespace SST {
 namespace Vanadis {

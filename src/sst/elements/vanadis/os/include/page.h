@@ -19,7 +19,7 @@
 #include <string>
 #include <set>
 
-#include "os/vphysmemmanager.h"
+#include "../vphysmemmanager.h"
 
 #if 0 
 #define PageDbg( format, ... ) printf( "Page::%s() " format, __func__, ##__VA_ARGS__ )
