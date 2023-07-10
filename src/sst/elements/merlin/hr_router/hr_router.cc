@@ -12,7 +12,7 @@
 // This file is part of the SST software package. For license
 // information, see the LICENSE file in the top level directory of the
 // distribution.
-#include "hr_router/hr_router.h"
+#include "hr_router.h"
 
 #include <sst/core/params.h>
 #include <sst/core/output.h>
@@ -24,7 +24,7 @@
 
 #include <signal.h>
 
-#include "merlin.h"
+#include "../merlin.h"
 
 using namespace SST::Merlin;
 using namespace SST::Interfaces;

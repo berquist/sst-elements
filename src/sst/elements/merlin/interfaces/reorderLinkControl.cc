@@ -17,7 +17,7 @@
 
 #include "reorderLinkControl.h"
 
-#include "merlin.h"
+#include "../merlin.h"
 
 namespace SST {
 using namespace Interfaces;

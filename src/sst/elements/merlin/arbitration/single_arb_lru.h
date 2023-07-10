@@ -19,7 +19,7 @@
 #ifndef COMPONENTS_MERLIN_ARBITRATION_SINGLE_ARB_LRU_H
 #define COMPONENTS_MERLIN_ARBITRATION_SINGLE_ARB_LRU_H
 
-#include "sst/elements/merlin/arbitration/single_arb.h"
+#include "single_arb.h"
 
 namespace SST {
 namespace Merlin {

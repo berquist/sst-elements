@@ -15,9 +15,11 @@ add_subdirectory(cassini)
 # add_subdirectory(firefly)
 add_subdirectory(hermes)
 add_subdirectory(kingsley)
-add_subdirectory(llyr)
+# add_subdirectory(llyr)
 add_subdirectory(memHierarchy)
-add_subdirectory(mercury)
+# sst_element_config.h
+# add_subdirectory(mercury)
+# needs python transformation
 add_subdirectory(merlin)
 # needs stake
 # add_subdirectory(miranda)

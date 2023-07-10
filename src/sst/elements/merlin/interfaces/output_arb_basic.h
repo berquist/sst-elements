@@ -19,8 +19,8 @@
 #ifndef COMPONENTS_MERLIN_ARBITRATION_OUTPUT_ARB_BASIC_H
 #define COMPONENTS_MERLIN_ARBITRATION_OUTPUT_ARB_BASIC_H
 
-#include <sst/elements/merlin/router.h>
-#include <sst/elements/merlin/arbitration/single_arb.h>
+#include "../router.h"
+#include "../arbitration/single_arb.h"
 
 namespace SST {
 namespace Merlin {

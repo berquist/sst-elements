@@ -5,7 +5,7 @@ set(SRC
 
 find_package(LLVM)
 find_package(Python COMPONENTS Development)
-if(TARGET LLVM)
+if(TARGET LLVM AND TARGET Python::Python)
     add_library(llyr ${SRC})
     target_link_libraries(llyr SST::SSTCore LLVM Python::Python)
-endif(TARGET LLVM)
+endif(TARGET LLVM AND TARGET Python::Python)

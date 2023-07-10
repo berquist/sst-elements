@@ -5,4 +5,4 @@ set(SRC
 )
 
 add_library(osseous ${SRC})
-target_link_libraries(osseous SST::SSTCore)
+target_link_libraries(osseous ariel)

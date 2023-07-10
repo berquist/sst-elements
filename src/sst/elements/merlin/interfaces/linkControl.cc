@@ -19,7 +19,7 @@
 
 #include <sst/core/output.h>
 
-#include "merlin.h"
+#include "../merlin.h"
 
 namespace SST {
 using namespace Interfaces;

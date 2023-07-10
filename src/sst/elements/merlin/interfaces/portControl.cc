@@ -14,7 +14,7 @@
 // distribution.
 
 #include "portControl.h"
-#include "merlin.h"
+#include "../merlin.h"
 
 #include "output_arb_basic.h"
 #include "output_arb_qos_multi.h"
