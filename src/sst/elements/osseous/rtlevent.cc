@@ -14,8 +14,6 @@
 // distribution.
 
 
-#include "uint.h"
-#include "sint.h"
 #include "rtl_header.h"
 #include "rtlevent.h"
 

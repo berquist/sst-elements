@@ -19,8 +19,8 @@ DEBUG_FLAGS debug_flag;
 #include <array>
 #include <cstdint>
 #include <cstdlib>
-#include "uint.h"
-#include "sint.h"
+#include "eras_datatypes/uint.h"
+#include "eras_datatypes/sint.h"
 #define UNLIKELY(condition) __builtin_expect(static_cast<bool>(condition), 0)
 
 typedef struct AXI4LiteCSR {

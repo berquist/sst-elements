@@ -15,17 +15,18 @@ add_subdirectory(cassini)
 # add_subdirectory(firefly)
 add_subdirectory(hermes)
 add_subdirectory(kingsley)
-# add_subdirectory(llyr)
+add_subdirectory(llyr)
 add_subdirectory(memHierarchy)
 # sst_element_config.h
 # add_subdirectory(mercury)
 # needs python transformation
-add_subdirectory(merlin)
+# add_subdirectory(merlin)
 # needs stake
 # add_subdirectory(miranda)
 add_subdirectory(mmu)
 add_subdirectory(osseous)
-add_subdirectory(prospero)
+# needs pintool
+# add_subdirectory(prospero)
 add_subdirectory(rdmaNic)
 add_subdirectory(serrano)
 add_subdirectory(shogun)
